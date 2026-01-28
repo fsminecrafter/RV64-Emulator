@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#dropzone {
+  width: 400px;
+  height: 200px;
+  border: 3px dashed #666;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #666;
+  transition: background 0.3s;
+}
+
+#dropzone.hover {
+  background-color: #eee;
+}
+
+#output {
+  white-space: pre-wrap;
+  background: #222;
+  color: #0f0;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
